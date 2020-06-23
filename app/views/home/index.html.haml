@@ -1,2 +1,22 @@
-%p
-  Home
+.container-sm
+  %h1.mt-5.text-center
+    Todo List
+  %input.form-control{:placeholder => 'Type any todo and press enter'}
+
+  %ul.mt-1.list-group.list-group-flush
+    %li.list-group-item.d-flex.justify-content-between.align-items-center
+      %del Buy tomatoes and make smoothies
+      %button.close{type: "button", :aria-label => "Close"}
+        %span{:aria-hidden => "true" } &times;
+    %li.list-group-item.d-flex.justify-content-between.align-items-center
+      %span Visit doctor and ask for recommendation
+      %button.close{type: "button", :aria-label => "Close"}
+        %span{:aria-hidden => "true" } &times;
+    %li.list-group-item.d-flex.justify-content-between.align-items-center
+      %del Call mom
+      %button.close{type: "button", :aria-label => "Close"}
+        %span{:aria-hidden => "true" } &times;
+    %li.list-group-item.d-flex.justify-content-between.align-items-center
+      %del Fix the door
+      %button.close{type: "button", :aria-label => "Close"}
+        %span{:aria-hidden => "true" } &times;
