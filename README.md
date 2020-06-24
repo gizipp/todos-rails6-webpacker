@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This projects demonstrates Bootstrap and JQuery glued on webpacker and Haml as template engines.
 
-Things you may want to cover:
+* Ruby 2.7.1
+* Rails 6.0.3.2
+* Bootstrap 4.5.0 & jQuery 3.5.1
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+See [demo](https://todos-rails6-webpacker.herokuapp.com/)
